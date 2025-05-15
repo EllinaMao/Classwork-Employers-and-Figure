@@ -16,6 +16,9 @@
 #include "Manager.h"
 #include "President.h"
 #include "Worker.h"
+#include "Figure.h"
+#include "Circle.h"
+#include "Rectangle.h"
 using namespace std;
 
 
@@ -34,6 +37,21 @@ int main()
         delete staff[i];
     }
     //task2
+
+	Figure* figures[3];
+	figures[0] = new Rectangle(5, 10);
+	figures[1] = new Circle(7);
+	figures[2] = new Rectangle(3, 4);
+
+
+	for (int i = 0; i < 3; ++i) {
+		figures[i]->ShowName();
+		figures[i]->ShowArea();
+		cout << "------------" << endl;
+	}
+	for (int i = 0; i < 3; ++i) {
+		delete figures[i];
+	}
 
 }
 
