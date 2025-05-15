@@ -13,36 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\task1">
+      <UniqueIdentifier>{e81ba47c-2f58-4adf-9596-50d5f4e54eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\task1">
+      <UniqueIdentifier>{5fa61616-46bd-4616-84fb-fc59d299f63f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="classwork.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="President.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Employer.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\task1</Filter>
     </ClCompile>
     <ClCompile Include="Manager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\task1</Filter>
+    </ClCompile>
+    <ClCompile Include="President.cpp">
+      <Filter>Source Files\task1</Filter>
     </ClCompile>
     <ClCompile Include="Worker.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\task1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="President.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\task1</Filter>
     </ClInclude>
     <ClInclude Include="Manager.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\task1</Filter>
+    </ClInclude>
+    <ClInclude Include="President.h">
+      <Filter>Header Files\task1</Filter>
     </ClInclude>
     <ClInclude Include="Worker.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\task1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
