@@ -13,6 +13,11 @@ void Trapezoid::ShowArea() const
 	cout << "Area of " << GetName() << ": " << 0.5 * (base1 + base2) * height << endl;
 }
 
+double Trapezoid::GetArea() const
+{
+	return (0.5 * (base1 + base2) * height);
+}
+
 Trapezoid::~Trapezoid()
 {
 	cout << "Destructor Trapezoid" << endl;

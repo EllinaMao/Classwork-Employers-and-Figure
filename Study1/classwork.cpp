@@ -37,7 +37,7 @@ int main()
     }
 
     for (int i = 0; i < 3; ++i) {
-        delete staff[i];
+        delete[] staff[i];
     }
     delete staff;
     // task2
@@ -47,11 +47,11 @@ int main()
     figures[1] = new Circle(7);
     figures[2] = new rightTriangle(3, 4);
     figures[3] = new Trapezoid(3, 3, 5);
-
+	double area = 0;
     for (size_t i = 0; i < size; ++i) {
         figures[i]->ShowName();
-        figures[i]->ShowArea();
-        cout << "------------" << endl;
+        area = figures[i]->GetArea();
+        cout << area<< "\n------------" << endl;
     }
     for (size_t i = 0; i < size; ++i) {
         delete figures[i];

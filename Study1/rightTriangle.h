@@ -9,7 +9,7 @@ private:
 public:
 	rightTriangle(double b, double h);
 	void ShowArea() const override;
-
+	double GetArea() const override;
 
 	double GetBase() const { return base; }
 	double GetHeight() const { return height; }

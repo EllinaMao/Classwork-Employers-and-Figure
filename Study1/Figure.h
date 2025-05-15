@@ -15,6 +15,7 @@ public:
     Figure();
     void ShowName() const;
     virtual void ShowArea() const = 0;
+	virtual double GetArea() const = 0;
 
     void SetName(const char* n);
 	char* GetName() const{return name;}

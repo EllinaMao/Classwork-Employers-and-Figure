@@ -9,6 +9,7 @@ public:
 
     Rectangle(double w, double h);
     void ShowArea() const override;
+	double GetArea() const override;
 
     double GetWidth() const { return width; }
     double GetHeight() const { return height; }

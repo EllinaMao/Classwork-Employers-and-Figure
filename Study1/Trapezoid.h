@@ -11,6 +11,7 @@ private:
 public:
 	Trapezoid(double b1, double b2, double h);
 	void ShowArea() const override;
+	double GetArea() const override;
 
 	double GetBase1() const { return base1; }
 	double GetBase2() const { return base2; }

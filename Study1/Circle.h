@@ -10,6 +10,7 @@ private:
 public:
 	explicit Circle(double r);
 	void ShowArea() const override;
+	double GetArea() const override;
 
 	double GetRadius() const { return radius; }
 	void SetRadius(double r) { radius = r; }

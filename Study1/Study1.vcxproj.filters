@@ -45,16 +45,16 @@
     <ClCompile Include="Circle.cpp">
       <Filter>Source Files\task2</Filter>
     </ClCompile>
-    <ClCompile Include="classwork.cpp">
-      <Filter>Source Files\task2</Filter>
-    </ClCompile>
     <ClCompile Include="Figure.cpp">
       <Filter>Source Files\task2</Filter>
     </ClCompile>
     <ClCompile Include="rightTriangle.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\task2</Filter>
     </ClCompile>
     <ClCompile Include="Trapezoid.cpp">
+      <Filter>Source Files\task2</Filter>
+    </ClCompile>
+    <ClCompile Include="classwork.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -81,10 +81,10 @@
       <Filter>Header Files\task2</Filter>
     </ClInclude>
     <ClInclude Include="rightTriangle.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\task2</Filter>
     </ClInclude>
     <ClInclude Include="Trapezoid.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\task2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
