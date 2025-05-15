@@ -19,11 +19,14 @@
     <Filter Include="Source Files\task1">
       <UniqueIdentifier>{5fa61616-46bd-4616-84fb-fc59d299f63f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\task2">
+      <UniqueIdentifier>{1799310c-8903-4b5b-ade6-84dbb1fa1ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\task2">
+      <UniqueIdentifier>{eecbab1c-7308-4e6b-9242-2f76c2ed8900}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="classwork.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Employer.cpp">
       <Filter>Source Files\task1</Filter>
     </ClCompile>
@@ -36,13 +39,22 @@
     <ClCompile Include="Worker.cpp">
       <Filter>Source Files\task1</Filter>
     </ClCompile>
-    <ClCompile Include="Figure.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Rectangle.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\task2</Filter>
     </ClCompile>
     <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\task2</Filter>
+    </ClCompile>
+    <ClCompile Include="classwork.cpp">
+      <Filter>Source Files\task2</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Source Files\task2</Filter>
+    </ClCompile>
+    <ClCompile Include="rightTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trapezoid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,13 +71,19 @@
     <ClInclude Include="Worker.h">
       <Filter>Header Files\task1</Filter>
     </ClInclude>
-    <ClInclude Include="Figure.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Rectangle.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\task2</Filter>
     </ClInclude>
     <ClInclude Include="Circle.h">
+      <Filter>Header Files\task2</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Header Files\task2</Filter>
+    </ClInclude>
+    <ClInclude Include="rightTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trapezoid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

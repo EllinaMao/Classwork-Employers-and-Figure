@@ -134,6 +134,8 @@
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="President.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="rightTriangle.cpp" />
+    <ClCompile Include="Trapezoid.cpp" />
     <ClCompile Include="Worker.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +145,8 @@
     <ClInclude Include="Manager.h" />
     <ClInclude Include="President.h" />
     <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="rightTriangle.h" />
+    <ClInclude Include="Trapezoid.h" />
     <ClInclude Include="Worker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

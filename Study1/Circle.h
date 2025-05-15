@@ -14,7 +14,7 @@ public:
 	double GetRadius() const { return radius; }
 	void SetRadius(double r) { radius = r; }
 	~Circle() override {
-		cout << "Destructor Circle" << endl;//
+		cout << "Destructor Circle" << endl;
 	}
 };
 

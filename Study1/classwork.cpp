@@ -19,12 +19,15 @@
 #include "Figure.h"
 #include "Circle.h"
 #include "Rectangle.h"
+#include "rightTriangle.h"
+#include "Trapezoid.h"
 using namespace std;
 
 
 int main()
 {
-    Employer* staff[3];
+    size_t sizet1 = 4;
+    Employer** staff = new Employer * [sizet1];
     staff[0] = new President("Anna", "Dotova", "CEO", "Step president");
     staff[1] = new Manager("Sasa", "Dotova", "Manager", "Manage team");
     staff[2] = new Worker("Ivan", "Ivanov", "Worker", "Perform tasks");
@@ -36,22 +39,25 @@ int main()
     for (int i = 0; i < 3; ++i) {
         delete staff[i];
     }
-    //task2
+    delete staff;
+    // task2
+    size_t size = 4;
+    Figure** figures = new Figure * [size];
+    figures[0] = new Rectangle(5, 10);
+    figures[1] = new Circle(7);
+    figures[2] = new rightTriangle(3, 4);
+    figures[3] = new Trapezoid(3, 3, 5);
 
-	Figure* figures[3];
-	figures[0] = new Rectangle(5, 10);
-	figures[1] = new Circle(7);
-	figures[2] = new Rectangle(3, 4);
+    for (size_t i = 0; i < size; ++i) {
+        figures[i]->ShowName();
+        figures[i]->ShowArea();
+        cout << "------------" << endl;
+    }
+    for (size_t i = 0; i < size; ++i) {
+        delete figures[i];
+    }
+    delete[] figures;
 
-
-	for (int i = 0; i < 3; ++i) {
-		figures[i]->ShowName();
-		figures[i]->ShowArea();
-		cout << "------------" << endl;
-	}
-	for (int i = 0; i < 3; ++i) {
-		delete figures[i];
-	}
 
 }
 
